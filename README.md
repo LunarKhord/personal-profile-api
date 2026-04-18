@@ -39,35 +39,33 @@ curl http://your-server-ip/me
 - **Deployment:** Railway
 
 
-## Running Locally
+## Setup
 
-### Prerequisites
-- Go 1.21+
+   - Go 1.21+
 
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/LunarKhord/personal-profile-api 
-   cd personal-profile-api
-   ```
+   1. Clone the repository:
+      ```bash
+      git clone https://github.com/LunarKhord/personal-profile-api 
+      cd personal-profile-api
+      ```
 
-2. Run the API:
-   ```bash
-   go run main.go
-   ```
+   2. Run the API:
+      ```bash
+      go run main.go
+      ```
 
-3. Test the endpoints:
-   ```bash
-   curl http://localhost:8080/
-   curl http://localhost:8080/health
-   curl http://localhost:8080/me
-   ```
+   3. Test the endpoints:
+      ```bash
+      curl http://localhost:8080/
+      curl http://localhost:8080/health
+      curl http://localhost:8080/me
+      ```
 
-3. **Test the endpoints**
-   ```bash
-   curl http://localhost:8080/
-   curl http://localhost:8080/health
-   curl http://localhost:8080/me
+   3. **Test the endpoints**
+      ```bash
+      curl http://localhost:8080/
+      curl http://localhost:8080/health
+      curl http://localhost:8080/me
    ```
 
 The server listens on port `8080` by default.

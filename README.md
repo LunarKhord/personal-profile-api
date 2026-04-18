@@ -47,7 +47,7 @@ curl http://your-server-ip/me
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/personal-profile-api.git
+   git clone https://github.com/yourusername/personal-profile-api
    cd personal-profile-api
    ```
 

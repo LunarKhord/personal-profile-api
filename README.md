@@ -39,7 +39,7 @@ curl http://your-server-ip/me
 - **Deployment:** Railway
 
 
-## Setup
+## Setup Section
 
    - Go 1.21+
 
@@ -54,19 +54,35 @@ curl http://your-server-ip/me
       go run main.go
       ```
 
-   3. Test the endpoints:
+   3. Test the endpoints wit expected outputs:
       ```bash
       curl http://localhost:8080/
+      ```
+      {
+         "message": "API is running"
+      }
+
+      ```
       curl http://localhost:8080/health
+      ```
+         {
+            "message": "healthy"
+         }
+
+
+      ```
       curl http://localhost:8080/me
       ```
 
-   3. **Test the endpoints**
-      ```bash
-      curl http://localhost:8080/
-      curl http://localhost:8080/health
-      curl http://localhost:8080/me
-   ```
+      ```
+         {
+            "name": "Your Full Name",
+            "email": "you@example.com",
+            "github": "https://github.com/yourusername"
+         }
+      ```
+
+
 
 The server listens on port `8080` by default.
 

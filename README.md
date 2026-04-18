@@ -38,22 +38,29 @@ curl http://your-server-ip/me
 - **Language:** Go 1.21+
 - **Deployment:** Railway
 
+
 ## Running Locally
 
 ### Prerequisites
-- Go 1.21 or later
+- Go 1.21+
 
 ### Steps
-
-1. **Clone the repository**
+1. Clone the repository:
    ```bash
-   git clone https://github.com/LunarKhord/personal-profile-api
+   git clone https://github.com/yourusername/personal-profile-api.git
    cd personal-profile-api
    ```
 
-2. **Run the API**
+2. Run the API:
    ```bash
    go run main.go
+   ```
+
+3. Test the endpoints:
+   ```bash
+   curl http://localhost:8080/
+   curl http://localhost:8080/health
+   curl http://localhost:8080/me
    ```
 
 3. **Test the endpoints**

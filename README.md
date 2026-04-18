@@ -5,7 +5,7 @@ A minimal HTTP API built with Go, deployed behind Nginx as a reverse proxy on a 
 
 ## Live Deployment
 
-**Base URL:** `http://your-server-ip` or `https://yourdomain.com`
+**Base URL:** `https://personal-profile-api.vercel.app/`
 
 ## API Endpoints
 

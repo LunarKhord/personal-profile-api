@@ -35,7 +35,7 @@ func meHandle(w http.ResponseWriter, r *http.Request) {
     profile := MeResponse{
         Name:   "Muhammad Hasim",
         Email:  "krazygenus@gmail.com",
-        Github: "https://github.com/LunarKhord/personal-profile-api",}
+        Github: "https://github.com/LunarKhord",}
     w.Header().Set("Content-Type", "application/json")
     w.Header().Set("Access-Control-Allow-Origin", "*")
     w.WriteHeader(http.StatusOK)
